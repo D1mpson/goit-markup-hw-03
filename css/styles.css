@@ -29,6 +29,8 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -36,7 +38,13 @@ h2{
 }
 
 h3{
-    color: #434455;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 
@@ -48,10 +56,16 @@ h3{
     color: #2e2f42;
     font-size: 18px;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 .accent{
     color: #4D5AE5;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
 }
 
 
@@ -63,7 +77,6 @@ h3{
     color: #2e2f42;
     display: flex;
     gap: 40px;
-    margin: 24 76 24 332;
 }
 
 .nav-a {
@@ -132,6 +145,8 @@ h3{
 .section-fitst-ul{
     display: flex;
     gap: 24px;
+    margin: 0 auto;
+    
 }
 
 .our-team{
@@ -172,17 +187,16 @@ h3{
 }
 
 .conteiner {
-    max-width: 1440px;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 1128px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .header-conteiner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
-    margin: 24px 156px;
+    margin: 24px auto;
 }
 
 .title-conteiner{
@@ -193,8 +207,7 @@ h3{
 .first-conteiner{
     display: flex;
     justify-content: space-around;
-    margin: 120px 156px;
-    max-height: 264px;
+    margin: 120px auto;
 }
 
 
