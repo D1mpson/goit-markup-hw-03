@@ -34,7 +34,12 @@ p {
 }
 
 h2{
-    color: #434455;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 h3{
@@ -142,19 +147,26 @@ h3{
     background: #4d5ae5;
 }
 
-.section-fitst-ul{
+.section-fitst-ul {
     display: flex;
     gap: 24px;
-    margin: 0 auto;
-    
+}
+
+.section-fitst-ul li {
+    width: 264px;
+    height: 104px;
 }
 
 .our-team{
     text-align: center;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 .managers{
+    display: flex;
     text-align: center;
+    gap: 24px;
 }
 
 .portfolio{
@@ -163,6 +175,7 @@ h3{
 
 .manager-color{
     background-color: #fff;
+    margin-bottom: 120px;
 }
 
 .section-second{
@@ -194,7 +207,7 @@ h3{
 
 .header-conteiner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 10px;
     margin: 24px auto;
 }
@@ -206,8 +219,12 @@ h3{
 
 .first-conteiner{
     display: flex;
-    justify-content: space-around;
     margin: 120px auto;
 }
 
+.second-conteiner{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
 
