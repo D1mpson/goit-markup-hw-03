@@ -4,7 +4,6 @@ body {
     background-color: #ffffff;
     margin: 0;
     font-weight: 500;
-    width: 1440px;
 }
 
 img{
@@ -40,9 +39,6 @@ h3{
     color: #434455;
 }
 
-header{
-    margin: 24px 0;
-}
 
 
 .logo-header {
@@ -115,13 +111,27 @@ header{
     color: #fff;
     margin: 0 auto;
     padding-bottom: 48px;
+    max-width: 500px;
 }
 
 .order-service-button{
     padding: 16px 32px;
+    border: 0px;
     background-color: #4d5ae5;
     color: #fff;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+.section-fitst-ul{
+    display: flex;
+    gap: 24px;
 }
 
 .our-team{
@@ -161,7 +171,7 @@ header{
     color: #fff;
 }
 
-.container {
+.conteiner {
     max-width: 1440px;
     padding-left: 0;
     padding-right: 0;
@@ -170,12 +180,21 @@ header{
 
 .header-conteiner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 10px;
+    margin: 24px 156px;
 }
 
 .title-conteiner{
     text-align: center;
-    padding: 300px 236px;
+    padding: 188px 0;
 }
+
+.first-conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 156px;
+    max-height: 264px;
+}
+
 
