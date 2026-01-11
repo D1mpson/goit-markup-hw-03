@@ -35,6 +35,7 @@ p {
 
 h2{
     padding: 0;
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -150,7 +151,6 @@ h3{
 
 .section-fitst{
     margin: 120px auto;
-
 }
 
 .section-fitst-ul {
@@ -160,8 +160,7 @@ h3{
 
 .our-team{
     text-align: center;
-    padding-bottom: 27px;
-    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .managers{
@@ -179,13 +178,6 @@ h3{
     border-bottom-right-radius: 5px;
 }
 
-.maneger-image {
-    padding-bottom: 32px;
-}
-
-.manager-p {
-    padding-bottom: 32px;
-}
 
 .portfolio{
     text-align: center;
@@ -275,9 +267,14 @@ h3{
 }
 
 .second-conteiner{
+    padding-top: 120px;
     display: flex;
     text-align: center;
     flex-direction: column;
+}
+
+.manager-text-conteiner{
+    padding: 32px;
 }
 
 .conteiner-portfolio{
