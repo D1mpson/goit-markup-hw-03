@@ -184,25 +184,26 @@ h3{
 }
 
 .portfolio-li p{
- text-align: left;
- margin-left: 16px;
- margin-right: 16px;
-
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 32px;
 }
 
 .portfolio-li h3 {
     text-align: left;
-    margin-left: 16px;
-    margin-right: 16px;
-
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;;
 }
 
-.portfolio-image {
-    margin-bottom: 32px;
+.portfolio-border{
+    border: 1px solid #e7e9fc;;
+    border-top: transparent;
 }
 
 .portfolio-p {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .manager-color{
@@ -221,8 +222,6 @@ h3{
 .section-second{
     background-color: #f4f4fd;
 }
-
-
 
 .footer{
     background-color: #2e2f42;
